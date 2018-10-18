@@ -22,4 +22,7 @@ pushd $(dirname "$0")/../../
 setup_environment_secrets
 create_settings_xml_file "settings.xml"
 
-mvn nexus-staging:release -DperformRelease=true --settings=settings.xml
+mvn nexus-staging:release \
+  --settings=settings.xml \
+  -DperformRelease=true \
+  -DstagingProfileId=150f7115d458e
