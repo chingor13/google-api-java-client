@@ -294,6 +294,7 @@
             <serverId>ossrh</serverId>
             <nexusUrl>https://oss.sonatype.org/</nexusUrl>
             <autoReleaseAfterClose>false</autoReleaseAfterClose>
+            <stagingProfileId>150f7115d458e</stagingProfileId>
           </configuration>
         </plugin>
         <plugin>
